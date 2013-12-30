@@ -8,11 +8,13 @@
 <ol>
 <li>
 <p>First, add the Javascript and CSS files to your project:
+<pre>
 <code>
-&lt;script src="http://code.jquery.com/jquery-1.10.1.min.js"&gt;&lt;/script&gt;<br>
-&lt;script src="jTabs.jquery.js"&gt;&lt;/script&gt;<br>
-&lt;link rel="stylesheet" href="jTabs.jquery.css"&gt;
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="jTabs.jquery.js"></script>
+<link rel="stylesheet" href="jTabs.jquery.css">
 </code>
+</pre>
 </li>
 <li><p>Create HTML code
 <code>&lt;section class="tabs"&gt;<br>
