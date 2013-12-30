@@ -10,9 +10,9 @@
 <p>First, add the Javascript and CSS files to your project:
 <pre>
 <code>
-"<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="jTabs.jquery.js"></script>
-<link rel="stylesheet" href="jTabs.jquery.css">"
+&lt;script src="http://code.jquery.com/jquery-1.10.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="jTabs.jquery.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="jTabs.jquery.css"&gt;
 </code>
 </pre>
 </li>
