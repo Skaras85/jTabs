@@ -44,9 +44,10 @@
     &lt;/div&gt;
 &lt;/section&gt;</code></pre></p></li>
 <li><p>Run plugin:
-<pre><code>$('.tabs').jTabs();</code></pre></p></li>
+<pre><code>
+$('.tabs').jTabs();</code></pre></p></li>
 <li><p>You can make vertical tabs by adding class .tabsVertical to section element:
-<code>&lt;section class="tabs tabsVertical"&gt;</code></p></li>
+<pre><code>&lt;section class="tabs tabsVertical"&gt;</code></pre></p></li>
 <li><p>You can nest one jTabs in a content of another:
 <pre><code>&lt;section class="tabs"&gt;
     &lt;nav&gt;
