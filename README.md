@@ -3,7 +3,7 @@
 <p>The Demo page: <a href="http://skaras85.webd.pl/jtabs/" target="_blank">http://skaras85.webd.pl/jtabs/</a></p>
 
 <h2>
-<a name="cool" class="anchor" href="#cool"><span class="octicon octicon-link"></span></a>Why this plugin is cool?:</h2>
+<a name="cool" class="anchor" href="#cool"><span class="octicon octicon-link"></span></a>Why this plugin is so cool?</h2>
 
 <ul>
     <li>It's lightweight, minified js file is only 1048 b</li>
