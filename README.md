@@ -1,6 +1,17 @@
-<h1><a name="simple-and-lightweight-jquery-tabs-plugin-html5-friendly" class="anchor" href="#simple-and-lightweight-jquery-tabs-plugin-html5-friendly"><span class="octicon octicon-link"></span></a>Simple and lightweight jQuery tabs plugin HTML5 friendly</h1>
+<h1><a name="simple-and-lightweight-jquery-tabs-plugin-html5-friendly" class="anchor" href="#simple-and-lightweight-jquery-tabs-plugin-html5-friendly"><span class="octicon octicon-link"></span></a>Cool jQuery tabs plugin</h1>
 
 <p>The Demo page: <a href="http://skaras85.webd.pl/jtabs/" target="_blank">http://skaras85.webd.pl/jtabs/</a></p>
+
+<h2>
+<a name="cool" class="anchor" href="#cool"><span class="octicon octicon-link"></span></a>Why this plugin is cool?:</h2>
+
+<ul>
+    <li>It's lightweight, minified js file is only 1048 b</li>
+    <li>It's simple in usage</li>
+    <li>It's written in HTML5</li>
+    <li>You can nest one tab in another many times. It's like tab Inception, lol</li>
+    <li>If you write a #id-of-some-tab on end of URL this tab will show opened</li>
+</ul>
 
 <h2>
 <a name="instructions" class="anchor" href="#instructions"><span class="octicon octicon-link"></span></a>Instructions:</h2>
