@@ -9,36 +9,35 @@
 <li>
 <p>First, add the Javascript and CSS files to your project:
 <pre>
-<code>
-&lt;script src="http://code.jquery.com/jquery-1.10.1.min.js"&gt;&lt;/script&gt;
+<code>&lt;script src="http://code.jquery.com/jquery-1.10.1.min.js"&gt;&lt;/script&gt;
 &lt;script src="jTabs.jquery.js"&gt;&lt;/script&gt;
-&lt;link rel="stylesheet" href="jTabs.jquery.css"&gt;
-</code>
+&lt;link rel="stylesheet" href="jTabs.jquery.css"&gt;</code>
 </pre>
 </li>
-<li><p>Create HTML code
-<code>&lt;section class="tabs"&gt;<br>
-    &lt;nav&gt;<br>
-        &lt;ul&gt;<br>
-            &lt;li&gt;&lt;a href="#first" class="chosenTab"&gt;first&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#second"&gt;second&lt;/a&gt;&lt;/li&gt;<br>
-        &lt;/ul&gt;<br>
-    &lt;/nav&gt;<br>
-    &lt;div&gt; <br>
-        &lt;article id="first"&gt;<br>
-            Content 1<br>
-        &lt;/article&gt;<br>
-        &lt;article class="tabHidden" id="second"&gt;<br>
-            Content 2<br>
-        &lt;/article&gt;<br>
-    &lt;/div&gt;<br>
-&lt;/section&gt;</code></p></li>
+<li><p>Create HTML code:
+<pre>
+<code>&lt;section class="tabs"&gt;
+    &lt;nav&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#first" class="chosenTab"&gt;first&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#second"&gt;second&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;div&gt; 
+        &lt;article id="first"&gt;
+            Content 1
+        &lt;/article&gt;
+        &lt;article class="tabHidden" id="second"&gt;
+            Content 2
+        &lt;/article&gt;
+    &lt;/div&gt;
+&lt;/section&gt;</code></pre></p></li>
 <li><p>Run plugin:
-<code>$('.tabs').jTabs();</code></p></li>
+<pre><code>$('.tabs').jTabs();</code></pre></p></li>
 <li><p>You can make vertical tabs by adding class .tabsVertical to section element:
 <code>&lt;section class="tabs tabsVertical"&gt;</code></p></li>
 <li><p>You can nest one jTabs in a content of another:
-<code>&lt;section class="tabs"&gt;
+<pre><code>&lt;section class="tabs"&gt;
     &lt;nav&gt;
         &lt;ul&gt;
             &lt;li&gt;&lt;a href="#first" class="chosenTab"&gt;first&lt;/a&gt;&lt;/li&gt;
@@ -72,5 +71,5 @@
             &lt;/section&gt;
         &lt;/article&gt;
     &lt;/div&gt;
-&lt;/section&gt;</code></p></li>
+&lt;/section&gt;</code></pre></p></li>
 </ol>
