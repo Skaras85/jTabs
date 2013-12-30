@@ -1,0 +1,119 @@
+.tabsWrapper{
+    position: relative;
+}
+
+.tabsWrapper.tabsHorizontal{
+    margin-top: 20px;
+}
+
+.tabsWrapper.tabsHorizontal > nav ul{
+    height: 30px;
+    position: absolute;
+    z-index: 100;
+    margin-top: -31px;
+    list-style-type: none;
+}
+
+    .tabsWrapper.tabsHorizontal > nav li{
+        float: left;
+    }
+    
+    .tabsWrapper.tabsHorizontal > nav a{
+        background: #eaeaea;
+        border: solid #CECECE 1px;
+        border-right: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 0 10px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+        .tabsWrapper.tabsHorizontal > nav li:last-of-type a{
+            border-right: solid #CECECE 1px;
+        }
+        
+        .tabsWrapper.tabsHorizontal > nav a.chosenTab{
+            background: #F9F9F9;
+            color: #746767;
+            border-bottom: solid #F9F9F9 1px;
+        }
+
+.tabsWrapper.tabsVertical > nav ul{
+    list-style-type: none;
+    float: left;
+    z-index: 100;
+    width: 15%;
+    box-sizing: border-box;
+}
+
+    .tabsWrapper.tabsVertical > nav a{
+        background: #eaeaea;
+        border: solid #CECECE 1px;
+        border-bottom: 0;
+        border-right: 0;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 5px 10px;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+        .tabsWrapper.tabsVertical > nav li:last-of-type a{
+            border-bottom: solid #CECECE 1px;
+        }
+
+        .tabsWrapper.tabsVertical > nav a.chosenTab{
+            background: #F9F9F9;
+            color: #746767;
+        }
+
+.tabsWrapper.tabsVertical > div{
+    float: left;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.tabsWrapper > div > article{
+    min-height: 100px;
+    padding: 10px;
+}
+
+.tabsWrapper > nav a:hover{
+    text-decoration: none;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(234,234,234,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(234,234,234,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+}
+
+.tabsWrapper > div{
+    /*margin: 29px 0 0;*/
+    border: solid #CECECE 1px;
+}
+
+.tabHidden{
+    display: none;
+}
+
+.tabsVertical:before,
+.tabsVertical:after {
+    content: "";
+    display: table;
+} 
+.tabsVertical:after {
+    clear: both;
+}
+.tabsVertical {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/****************************************/ 
