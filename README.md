@@ -1,7 +1,6 @@
+<h1><a name="simple-and-lightweight-jquery-tabs-plugin-html5-friendly" class="anchor" href="#simple-and-lightweight-jquery-tabs-plugin-html5-friendly"><span class="octicon octicon-link"></span></a>Simple and lightweight jQuery tabs plugin HTML5 friendly</h1>
 
-<a name="simple-and-lightweight-jquery-tabs-plugin-html5-friendly" class="anchor" href="#simple-and-lightweight-jquery-tabs-plugin-html5-friendly"><span class="octicon octicon-link"></span></a>Simple and lightweight jQuery tabs plugin HTML5 friendly</h1>
-
-<p>The Demo page: <a href="http://skaras85.webd.pl/jtabs/">http://skaras85.webd.pl/jtabs/</a></p>
+<p>The Demo page: <a href="http://skaras85.webd.pl/jtabs/" target="_blank">http://skaras85.webd.pl/jtabs/</a></p>
 
 <h2>
 <a name="instructions" class="anchor" href="#instructions"><span class="octicon octicon-link"></span></a>Instructions:</h2>
